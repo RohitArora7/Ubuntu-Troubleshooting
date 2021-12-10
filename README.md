@@ -91,6 +91,10 @@ network:
         - 8.8.4.4
         search: []
   version: 2
+default via 102.222.36.1 dev enp6s0 proto static 
+102.222.36.0/25 dev enp6s0 proto kernel scope link src 102.222.36.32 
+172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown 
+192.168.122.0/24 dev enp1s0 proto kernel scope link src 192.168.122.11 
 
 ```
 ```bash
