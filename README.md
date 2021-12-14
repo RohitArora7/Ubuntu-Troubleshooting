@@ -4,6 +4,7 @@ Restart Network Adapter
 
 ```bash
 sudo systemctl restart NetworkManager
+sudo systemctl restart Networking
 ```
 Enable any system hardware
 
