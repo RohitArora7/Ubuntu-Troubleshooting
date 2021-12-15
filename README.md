@@ -55,6 +55,8 @@ sudo systemctl stop magma@*
 start service
 ```bash
 sudo systemctl magma@magmad
+sudo service magma@* stop
+sudo service magma@magmad start
 ```
 how ip is routing 
 ```bash
@@ -62,7 +64,11 @@ how ip is routing
   ip r g 192.168.122.17
 ```
 
-
+get details of process id
+```bash
+ps -p 1671
+systemctl restart packagekit
+```
 
 
 bridgw and virtual network 
