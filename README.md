@@ -1,4 +1,8 @@
 # Ubuntu-Troubleshooting
+capture network 
+```bash
+sudo tcpdump -i eth1
+```
 
 Restart Network Adapter 
 
