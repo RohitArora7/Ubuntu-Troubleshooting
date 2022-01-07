@@ -1,4 +1,10 @@
 # Ubuntu-Troubleshooting
+```bash
+apt list --installed
+
+```
+
+
 capture network 
 ```bash
 sudo tcpdump -i eth1
