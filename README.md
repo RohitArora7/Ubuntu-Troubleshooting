@@ -4,6 +4,11 @@ apt list --installed
 
 ```
 
+delete network interface 
+```bash
+sudo ip link del docker0
+```
+
 
 capture network 
 ```bash
