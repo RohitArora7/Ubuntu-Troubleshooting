@@ -1,8 +1,14 @@
 # Ubuntu-Troubleshooting
 ```bash
-apt list --installed
+apt list --installed | grep docker
 
 ```
+
+``bash
+ sudo apt remove docker-ce-cli docker-ce-rootless-extras docker-ce
+```
+
+
 
 delete network interface 
 ```bash
