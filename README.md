@@ -4,10 +4,13 @@ apt list --installed | grep docker
 
 ```
 
-``bash
+```bash
  sudo apt remove docker-ce-cli docker-ce-rootless-extras docker-ce
 ```
 
+```bash
+do-release-upgrade
+```
 
 
 delete network interface 
