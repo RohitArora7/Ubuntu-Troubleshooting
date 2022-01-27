@@ -5,6 +5,10 @@ apt list --installed | grep docker
 ```
 
 ```bash
+ps aux | grep 6804
+```
+
+```bash
  sudo apt remove docker-ce-cli docker-ce-rootless-extras docker-ce
 ```
 
