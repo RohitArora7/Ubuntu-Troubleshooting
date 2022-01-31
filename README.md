@@ -1,85 +1,77 @@
 # Ubuntu-Troubleshooting
+sudo writes
+```bash
+sudo visudo
+ubuntu ALL=(ALL) NOPASSWD:ALL
+```
+forget sudo in vim 
+```bash
+:w !sudo tee %
+```
+get all apps installed and grep one
 ```bash
 apt list --installed | grep docker
-
 ```
-
+process name from process id
 ```bash
 ps aux | grep 6804
 ```
-
+uninstall docker 
 ```bash
  sudo apt remove docker-ce-cli docker-ce-rootless-extras docker-ce
 ```
-
+do release update 
 ```bash
 do-release-upgrade
 ```
-
-
 delete network interface 
 ```bash
 sudo ip link del docker0
 ```
-
-
 capture network 
 ```bash
 sudo tcpdump -i eth1
 ```
-
 Restart Network Adapter 
-
 ```bash
 sudo systemctl restart NetworkManager
 sudo systemctl restart Networking
 ```
 Enable any system hardware
-
 ```bash
 xinput list 
 xinput enable id_no.
 ```
-
 sudo: unable to resolve host ubunturohit: Name or service not known
-
 ``bash
 127.0.0.1 hostname
 ```
-
 dpkg package repair
 ```bash
 sudo dpkg --configure -a
 ```
-
 to find port 
 ```bash
 sudo netstat -l | grep sctp
 sudo netstat -tplan 38412
 ```
-
 follow up service 
 ```bash
 sudo journalctl -u magma@magmad -f
 ```
-
 WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!
 Someone could be eavesdropping on you right now (man-in-the-middle attack)!
-
 ```bash
 echo''> /home/rohit/.ssh/known_hosts 
 ```
-
 remove package same name
 ```bash
 sudo rm gateway.*
 ```
-
 stop services 
 ```bash
 sudo systemctl stop magma@*
 ```
-
 start service
 ```bash
 sudo systemctl magma@magmad
@@ -91,16 +83,12 @@ how ip is routing
   ip r g 8.8.8.8
   ip r g 192.168.122.17
 ```
-
 get details of process id
 ```bash
 ps -p 1671
 systemctl restart packagekit
 ```
-
-
 bridgw and virtual network 
-
 ```bash
 network:
   ethernets:
