@@ -1,4 +1,17 @@
 # Ubuntu-Troubleshooting
+
+run command with file 
+```bash
+
+kubectl create -f - << EOF
+#content
+EOF
+```
+download to particular location
+```bash
+sudo wget url -O /usr/local/bin/rke 
+```
+
 sudo writes
 ```bash
 sudo visudo
