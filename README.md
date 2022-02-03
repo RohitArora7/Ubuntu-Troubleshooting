@@ -1,5 +1,12 @@
 # Ubuntu-Troubleshooting
 
+sudo rights
+```bash
+sudo usermod -a -G microk8s ubuntu
+sudo chown -f -R ubuntu ~/.kube
+
+```
+
 run command with file 
 ```bash
 
