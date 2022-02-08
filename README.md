@@ -1,5 +1,20 @@
 # Ubuntu-Troubleshooting
 
+tag push docker images
+```bash
+#!/bin/bash
+
+ECMO_IMAGES=$(docker images | head -n 17 | tail -n 16 | awk '{print $1}')
+
+for i in ${ECMO_IMAGES}
+do
+  echo "Updatating rohitarora7/${i}"
+  docker tag ${i} rohitarora7/${i}
+  docker push rohitarora7/${i} 
+  docker rmi rohitarora7/${i}
+done
+```
+
 sudo rights
 ```bash
 sudo usermod -a -G microk8s ubuntu
