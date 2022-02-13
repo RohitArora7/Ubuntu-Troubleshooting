@@ -1,4 +1,10 @@
 # Ubuntu-Troubleshooting
+compressor 
+```bash
+tar -cvzf backup.tgz /path/to/source/folder
+
+tar -xf backup.tgz
+```
 output
 ```bash
 nohup ./prep_baremetal_centos.sh &
