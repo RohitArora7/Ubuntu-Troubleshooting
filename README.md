@@ -1,5 +1,12 @@
 # Ubuntu-Troubleshooting
 
+```bash
+find . -type f -name "bin"
+
+find ~/ -type d -name "gtp"
+
+```
+
 tag push docker images
 ```bash
 #!/bin/bash
