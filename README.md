@@ -1,4 +1,13 @@
 # Ubuntu-Troubleshooting
+wget clone website content 
+```bash
+download locally links
+wget -r -k www.everydaylinuxuser.com
+download at 0 level
+wget -r -l 0 verydaylinuxuser.com
+
+```
+
 compressor 
 ```bash
 tar -cvzf backup.tgz /path/to/source/folder
