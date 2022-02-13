@@ -1,12 +1,15 @@
 # Ubuntu-Troubleshooting
-
+output
+```bash
+nohup ./prep_baremetal_centos.sh &
+```
+Find
 ```bash
 find . -type f -name "bin"
 
 find ~/ -type d -name "gtp"
 
 ```
-
 tag push docker images
 ```bash
 #!/bin/bash
