@@ -1,13 +1,17 @@
 # Ubuntu-Troubleshooting
+ping not sound
+```bash
+apt-get update
+apt-get install iputils-ping
+```
 wget clone website content 
 ```bash
 download locally links
-wget -r -k www.everydaylinuxuser.com
+wget -r -k www.mysysteminfo.com
 download at 0 level
-wget -r -l 0 verydaylinuxuser.com
+wget -r -l 0 mysysteminfo.com
 
 ```
-
 compressor 
 ```bash
 tar -cvzf backup.tgz /path/to/source/folder
