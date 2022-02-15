@@ -1,5 +1,10 @@
 # Ubuntu-Troubleshooting
-ping not sound
+ip a not found 
+```bash
+apt update
+apt install iproute2
+```
+ping not found
 ```bash
 apt-get update
 apt-get install iputils-ping
