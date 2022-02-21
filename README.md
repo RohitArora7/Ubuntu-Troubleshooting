@@ -33,6 +33,8 @@ find . -type f -name "bin"
 
 find ~/ -type d -name "gtp"
 
+grep -rnw . -e 'developer'
+
 ```
 tag push docker images
 ```bash
