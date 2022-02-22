@@ -1,4 +1,10 @@
 # Ubuntu-Troubleshooting
+space
+```bash
+lsblk
+df -h /
+du -sh
+```
 ip a not found 
 ```bash
 apt update
