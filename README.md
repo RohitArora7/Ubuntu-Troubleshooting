@@ -1,4 +1,22 @@
 # Ubuntu-Troubleshooting
+kubernetes auto complete 
+```bash
+kubectl completion bash > kubecom.sh
+source $HOME/.kube/kubecom.sh
+```
+
+```bash
+kubectl explain pods|less
+kubectl explain pods --recursive|less
+```
+
+```bash
+kubectl  apply -f firstpod.yaml --server-dry-run
+kubectl diff -f firstpod.yaml
+```
+
+
+
 space
 ```bash
 lsblk
