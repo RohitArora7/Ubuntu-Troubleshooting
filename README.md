@@ -33,6 +33,17 @@ ping not found
 apt-get update
 apt-get install iputils-ping
 ```
+netcat not found
+```bash
+apt-get install -y netcat
+netcat -l -p 8000
+```
+netstat not found 
+```bash
+apt-get install net-tools
+netstat -nltp
+```
+
 wget clone website content 
 ```bash
 download locally links
