@@ -14,7 +14,10 @@ kubectl explain pods --recursive|less
 kubectl  apply -f firstpod.yaml --server-dry-run
 kubectl diff -f firstpod.yaml
 ```
-
+find replace text
+```bash
+sed -i 's/old-text/new-text/g' input.txt
+```
 
 
 space
