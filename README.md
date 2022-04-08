@@ -16,7 +16,18 @@ kubectl diff -f firstpod.yaml
 ```
 find replace text
 ```bash
+File
 sed -i 's/old-text/new-text/g' input.txt
+
+vim 
+:%s/emcov2/amcop/g
+
+variable
+website=rohit.arora.com
+echo $website 
+echo ${website:6}
+echo ${website:0:5}
+echo ${website//rohit/chetali}
 ```
 
 
