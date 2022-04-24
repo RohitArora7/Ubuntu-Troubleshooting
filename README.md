@@ -1,5 +1,17 @@
 # Ubuntu-Troubleshooting
 
+Data filter
+```bash
+kubectl get pods --no-headers | awk '{print $3}'
+kubectl get pods | tail -n +2 | awk '{print $3}'
+
+kubectl get pods calico-node-wx8kq -o jsonpath={.status.phase}
+kubectl get pods -o jsonpath={.status.phase};echo
+kubectl get pods calico-node-wx8kq -o json | jq '.status.phase'
+kubectl get pods calico-node-wx8kq -o json | jq -r '.status.phase'
+
+```
+
 find replace text
 ```bash
 File
