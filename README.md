@@ -12,6 +12,10 @@ kubectl get pods calico-node-wx8kq -o json | jq -r '.status.phase'
 
 ```
 
+```bash
+scp ./codebook_1.0.0_amd64.deb ubuntu@192.168.122.165:~ 
+```
+
 find replace text
 ```bash
 File
