@@ -1,5 +1,15 @@
 # Ubuntu-Troubleshooting
 
+Time
+```bash
+timedatectl status
+timedatectl list-timezones | grep -i kol
+timedatectl set-timezone Asia/Kolkata
+
+
+```
+
+
 Data filter
 ```bash
 kubectl get pods --no-headers | awk '{print $3}'
