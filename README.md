@@ -9,6 +9,12 @@ timedatectl set-timezone Asia/Kolkata
 
 ```
 
+ssh copy 
+```bash
+ <link rel="stylesheet" href="css/jquery.highlighttextarea.min.css">
+ <script src="js/jquery.highlighttextarea.js" onload="window.$ = window.jQuery = module.exports;"></script>
+```
+
 
 Data filter
 ```bash
