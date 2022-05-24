@@ -1,12 +1,21 @@
 # Ubuntu-Troubleshooting
 
+system details
+```bash
+ sudo lshw
+ lsusb
+ lscpu
+ lspci
+ lsscsi
+ xinput
+ lsblk
+```
+
 Time
 ```bash
 timedatectl status
 timedatectl list-timezones | grep -i kol
 timedatectl set-timezone Asia/Kolkata
-
-
 ```
 
 ssh copy 
