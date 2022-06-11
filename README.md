@@ -20,8 +20,15 @@ timedatectl set-timezone Asia/Kolkata
 
 ssh copy 
 ```bash
- <link rel="stylesheet" href="css/jquery.highlighttextarea.min.css">
- <script src="js/jquery.highlighttextarea.js" onload="window.$ = window.jQuery = module.exports;"></script>
+ sudo apt install openssh-server
+ sudo service ssh status
+ sudo service ssh start
+ sudo service ssh restart
+ sudo netstat -ltnp | grep sshd
+ sudo ufw allow port /tcp
+ sudo ufw allow 2244/tcp
+ sudo ufw reload
+ sudo ufw status
 ```
 
 
