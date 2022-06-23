@@ -9,6 +9,7 @@ system details
  lsscsi
  xinput
  lsblk
+ cat /etc/*-release
 ```
 
 Time
