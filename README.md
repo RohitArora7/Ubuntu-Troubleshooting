@@ -1,5 +1,18 @@
 # Ubuntu-Troubleshooting
 
+keep server live
+
+```bash
+cd /directory/where/html/is/present
+python -m SimpleHTTPServer 8000  # For python 2
+python3 -m http.server 8000 # For python 3
+```
+
+watch
+```bash
+watch -n 0.1 ls -lh ubuntu-20.04.4-live-server-amd64.iso
+```
+
 system details
 ```bash
  sudo lshw
