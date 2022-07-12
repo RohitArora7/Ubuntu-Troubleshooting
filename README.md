@@ -1,5 +1,13 @@
 # Ubuntu-Troubleshooting
 
+
+Indian server hit
+```bash
+cd /etc/apt/
+sed 's/in.archive/archive/g' sources.list
+sed -i 's/in.archive/archive/g' sources.list
+```
+
 keep server live
 
 ```bash
