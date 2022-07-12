@@ -1,5 +1,14 @@
 # Ubuntu-Troubleshooting
 
+See the ENV
+```bash
+env
+```
+
+change owership of folder to current user 
+```bash
+chown -R $USER:$USER /opt
+```
 
 Indian server hit
 ```bash
@@ -9,7 +18,6 @@ sed -i 's/in.archive/archive/g' sources.list
 ```
 
 keep server live
-
 ```bash
 cd /directory/where/html/is/present
 python -m SimpleHTTPServer 8000  # For python 2
