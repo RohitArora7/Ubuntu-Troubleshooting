@@ -3,6 +3,7 @@
 See the ENV
 ```bash
 env
+export PYTHONPATH=/opt/liboqs-python
 ```
 
 change owership of folder to current user 
