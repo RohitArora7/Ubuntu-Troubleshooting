@@ -4,6 +4,9 @@ See the ENV
 ```bash
 env
 export PYTHONPATH=/opt/liboqs-python
+cat /etc/profile
+cat ~/.profile
+cat ~/.bashrc
 ```
 
 change owership of folder to current user 
