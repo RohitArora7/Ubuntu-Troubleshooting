@@ -1,5 +1,13 @@
 # Ubuntu-Troubleshooting
 
+ss
+```bash
+ss -tl4pn
+ss -tn src :22
+ss -tn dst :22
+
+```
+
 See the ENV
 ```bash
 env
