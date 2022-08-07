@@ -5,6 +5,8 @@ ss
 ss -tl4pn
 ss -tn src :22
 ss -tn dst :22
+ss -an | grep :22
+
 
 ```
 
