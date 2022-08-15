@@ -1,6 +1,11 @@
 # Ubuntu-Troubleshooting
 
-you software installed info 
+system link 
+```bash
+sudo ln -s /usr/bin/python3 /usr/bin/python
+```
+
+software installed info 
 ```bash
 apt-cache show python-is-python3
 ```
