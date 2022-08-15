@@ -1,5 +1,9 @@
 # Ubuntu-Troubleshooting
 
+you software installed info 
+```bash
+apt-cache show python-is-python3
+```
 
 python fix
 ```bash
