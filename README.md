@@ -9,6 +9,8 @@ sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtub
 sudo chmod a+rx /usr/local/bin/youtube-dl
 
 hash -r
+
+ youtube-dl -f best -citw -v playlist url
 ```
 
 ss
