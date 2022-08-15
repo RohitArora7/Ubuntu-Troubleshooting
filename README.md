@@ -1,9 +1,18 @@
 # Ubuntu-Troubleshooting
 
 
-youtube download 
-
+python fix
 ```bash
+sudo apt update
+sudo apt install python-is-python3
+```
+
+youtube download 
+```bash
+pip insyall youtube-dl
+
+or
+
 sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
 
 sudo chmod a+rx /usr/local/bin/youtube-dl
