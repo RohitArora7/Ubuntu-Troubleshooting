@@ -1,5 +1,10 @@
 # Ubuntu-Troubleshooting
 
+SSL Information
+```bash
+echo | openssl s_client -servername yourdomain.com -connect yourdomain.com:443
+```
+
 system link 
 ```bash
 sudo ln -s /usr/bin/python3 /usr/bin/python
