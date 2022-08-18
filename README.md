@@ -1,4 +1,9 @@
 # Ubuntu-Troubleshooting
+Limit Resourse
+```bash
+ulimit -Sa
+ulimit -n 5
+```
 
 SSL Information
 ```bash
