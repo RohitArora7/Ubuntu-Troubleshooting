@@ -1,5 +1,12 @@
 # Ubuntu-Troubleshooting
 
+Process kill
+```bash
+pidof slack
+sudo kill -9 process_id
+sudo kill -9 `pidof programe_name`
+killall program_name
+```
 
 Find pid from port number
 ```bash
