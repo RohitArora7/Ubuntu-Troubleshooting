@@ -1,4 +1,11 @@
 # Ubuntu-Troubleshooting
+
+
+Find pid from port number
+```bash
+sudo ss -lptn 'sport = :80'
+```
+
 Limit Resourse
 ```bash
 ulimit -Sa
