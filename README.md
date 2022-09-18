@@ -165,6 +165,8 @@ find replace text
 File
 sed -i 's/old-text/new-text/g' input.txt
 
+find . -name \*.h -exec sed -i 's,<oqs/,",g' {} \;
+
 vim 
 :%s/emcov2/amcop/g
 
