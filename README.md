@@ -1,5 +1,16 @@
 # Ubuntu-Troubleshooting
 
+```bash
+sudo dpkg --configure -a
+```
+
+gcc g++ 
+
+```bash
+sudo apt-get install build-essential manpages-dev
+```
+
+
 Process kill
 ```bash
 pidof slack
