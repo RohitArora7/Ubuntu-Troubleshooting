@@ -167,6 +167,9 @@ File
 sed -i 's/old-text/new-text/g' input.txt
 
 find . -name \*.h -exec sed -i 's,<oqs/,",g' {} \;
+find . -name \*.h -exec sed -i "s/<oqs/<oqss/g" {} \;
+
+sed 's+http://+https://www.cyberciti.biz+g' input.txt
 
 vim 
 :%s/emcov2/amcop/g
