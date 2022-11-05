@@ -128,7 +128,7 @@ timedatectl list-timezones | grep -i kol
 timedatectl set-timezone Asia/Kolkata
 ```
 
-ssh copy 
+ssh  
 ```bash
  sudo apt install openssh-server
  sudo service ssh status
@@ -139,6 +139,13 @@ ssh copy
  sudo ufw allow 2244/tcp
  sudo ufw reload
  sudo ufw status
+ 
+ ssh test.server.com
+ ssh-keygen
+ ssh-copy-id ubuntu@192.168.5.5
+ echo 'ls' | ssh ubuntu@192.168.5.171
+
+ 
 ```
 
 
