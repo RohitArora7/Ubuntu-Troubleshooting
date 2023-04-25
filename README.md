@@ -1,5 +1,9 @@
 # Ubuntu-Troubleshooting
 
+```package
+dpkg --listfiles bashtor
+```
+
 ```bash
 sudo dpkg --configure -a
 ```
