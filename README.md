@@ -1,5 +1,13 @@
 # Ubuntu-Troubleshooting
 
+```latest file
+ls -lrth
+```
+
+```sha
+sha256sum filename.pdf
+```
+
 ```package
 dpkg --listfiles bashtor
 ```
