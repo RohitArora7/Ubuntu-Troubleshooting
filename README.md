@@ -1,4 +1,7 @@
 # Ubuntu-Troubleshooting
+```apk list
+cd /var/lib/apt/lists/
+```
 
 ```latest file
 ls -lrth
