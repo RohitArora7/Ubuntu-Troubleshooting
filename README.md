@@ -1,21 +1,27 @@
 # Ubuntu-Troubleshooting
-```apk list
+
+Encrypt files
+```
+zip --encrypt file.zip files
+```
+apk list to remove
+```
 cd /var/lib/apt/lists/
 ```
-
-```latest file
+latest file
+```
 ls -lrth
 ```
-
-```sha
+sha
+```
 sha256sum filename.pdf
 ```
-
-```package
+package
+```
 dpkg --listfiles bashtor
 ```
-
-```bash
+bash
+```
 sudo dpkg --configure -a
 ```
 
