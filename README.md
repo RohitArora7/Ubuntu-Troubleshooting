@@ -1,5 +1,8 @@
 # Ubuntu-Troubleshooting
-
+rg search
+```
+apt-get install ripgrep
+```
 Encrypt files
 ```
 zip --encrypt file.zip files
