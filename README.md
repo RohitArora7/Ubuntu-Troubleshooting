@@ -7,6 +7,10 @@ Encrypt files
 ```
 zip --encrypt file.zip files
 ```
+compress zip
+```
+zip -r compressed_filename.zip foldername
+```
 apk list to remove
 ```
 cd /var/lib/apt/lists/
