@@ -1,4 +1,25 @@
 # Ubuntu-Troubleshooting
+
+Users folder rights
+```
+Everyone
+sudo chmod 777 /opt
+
+(rohit) to have full access
+sudo chown rohit:rohit /opt
+sudo chown -R $USER:$USER /opt
+sudo chmod 755 /opt
+
+Root Access
+sudo chown root:root /opt/drawio/chrome-sandbox
+sudo chmod 4755 /opt/drawio/chrome-sandbox
+```
+```
+sudo su
+sudo visudo
+rohit ALL=(ALL) NOPASSWD: ALL
+```
+
 rg search
 ```
 apt-get install ripgrep
